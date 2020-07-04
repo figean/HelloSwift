@@ -26,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1881CDFC19DE8CAB00934EE6 /* goodBye.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = goodBye.playground; sourceTree = "<group>"; };
 		9D61169219DC580F0038B66F /* HelloUI3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloUI3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D61169619DC580F0038B66F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D61169719DC580F0038B66F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +84,7 @@
 				9D61169E19DC580F0038B66F /* Images.xcassets */,
 				9D6116A019DC580F0038B66F /* LaunchScreen.xib */,
 				9D61169519DC580F0038B66F /* Supporting Files */,
+				1881CDFC19DE8CAB00934EE6 /* goodBye.playground */,
 			);
 			path = HelloUI3;
 			sourceTree = "<group>";
@@ -289,7 +291,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -325,7 +327,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -405,6 +407,7 @@
 				9D6116B319DC580F0038B66F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D6116B419DC580F0038B66F /* Build configuration list for PBXNativeTarget "HelloUI3Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +416,7 @@
 				9D6116B619DC580F0038B66F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

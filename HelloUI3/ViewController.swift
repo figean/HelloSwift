@@ -20,10 +20,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var num3: UITextField!
     
     @IBAction func calSum(sender: AnyObject) {
+        //println("hello knight")
         num3.text = String(num1.text.toInt()! + num2.text.toInt()!)
+        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        //NSLog("hello %d", 123);
+        //self.simpleDescription()
+        //println("hello knight")
+
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -31,6 +37,19 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func simpleDescription () -> NSString
+    {
+        let possiableString : String? = "google"
+        
+        var friendlyWelcome = "欢迎朋友"
+        return friendlyWelcome
+        
+        let languageName = "java"
+        println(languageName)
+    
+    }
+    
 
 
 }
