@@ -27,6 +27,10 @@
 
 /* Begin PBXFileReference section */
 		1881CDFC19DE8CAB00934EE6 /* goodBye.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = goodBye.playground; sourceTree = "<group>"; };
+		1881CDFD19DEA67900934EE6 /* AccelerateFunctions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AccelerateFunctions.playground; sourceTree = "<group>"; };
+		1881CDFE19DEA67900934EE6 /* CollectionOperations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CollectionOperations.playground; sourceTree = "<group>"; };
+		1881CDFF19DEA67900934EE6 /* HandyFunctions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HandyFunctions.playground; sourceTree = "<group>"; };
+		1881CE0019DEA67900934EE6 /* SceneKitMac.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SceneKitMac.playground; sourceTree = "<group>"; };
 		9D61169219DC580F0038B66F /* HelloUI3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloUI3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D61169619DC580F0038B66F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D61169719DC580F0038B66F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +82,10 @@
 		9D61169419DC580F0038B66F /* HelloUI3 */ = {
 			isa = PBXGroup;
 			children = (
+				1881CDFD19DEA67900934EE6 /* AccelerateFunctions.playground */,
+				1881CDFE19DEA67900934EE6 /* CollectionOperations.playground */,
+				1881CDFF19DEA67900934EE6 /* HandyFunctions.playground */,
+				1881CE0019DEA67900934EE6 /* SceneKitMac.playground */,
 				9D61169719DC580F0038B66F /* AppDelegate.swift */,
 				9D61169919DC580F0038B66F /* ViewController.swift */,
 				9D61169B19DC580F0038B66F /* Main.storyboard */,
