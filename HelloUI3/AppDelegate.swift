@@ -1,10 +1,15 @@
-//
-//  AppDelegate.swift
-//  HelloUI3
-//
-//  Created by maikaowen on 14-10-1.
-//  Copyright (c) 2014年 makao007. All rights reserved.
-//
+/************************************************************
+*  * HONGHE CONFIDENTIAL
+* __________________
+* Copyright (C) 2014-2015 HONGHE Technologies. All rights reserved.
+*
+* NOTICE: All information contained herein is, and remains
+* the property of HONGHE Technologies.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from HONGHE Technologies.
+* The author is knight(卢远强), ios software engineer.
+*/
 
 import UIKit
 
