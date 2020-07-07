@@ -26,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		182E63F719E2EE67000DC437 /* Basic.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Basic.playground; sourceTree = "<group>"; };
 		1881CDFC19DE8CAB00934EE6 /* goodBye.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = goodBye.playground; sourceTree = "<group>"; };
 		1881CDFD19DEA67900934EE6 /* AccelerateFunctions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AccelerateFunctions.playground; sourceTree = "<group>"; };
 		1881CDFE19DEA67900934EE6 /* CollectionOperations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CollectionOperations.playground; sourceTree = "<group>"; };
@@ -82,6 +83,7 @@
 		9D61169419DC580F0038B66F /* HelloUI3 */ = {
 			isa = PBXGroup;
 			children = (
+				182E63F719E2EE67000DC437 /* Basic.playground */,
 				1881CDFD19DEA67900934EE6 /* AccelerateFunctions.playground */,
 				1881CDFE19DEA67900934EE6 /* CollectionOperations.playground */,
 				1881CDFF19DEA67900934EE6 /* HandyFunctions.playground */,

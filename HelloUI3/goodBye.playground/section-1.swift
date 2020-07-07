@@ -2,7 +2,6 @@
 
 import UIKit
 
-
 var str = "我们开始学习swift中得playground不需要编译 可以直接执行"
 println("this is a str : (\(str))")
 let possiableString : String? = "google"
