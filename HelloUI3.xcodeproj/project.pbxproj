@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24ACFE0319E52FC70049CF61 /* SwiftJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24ACFE0219E52FC70049CF61 /* SwiftJSON.swift */; };
+		24ACFE0519E534940049CF61 /* SwiftJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24ACFE0219E52FC70049CF61 /* SwiftJSON.swift */; };
+		24ACFE0C19E53DCA0049CF61 /* JSONTests.json in Resources */ = {isa = PBXBuildFile; fileRef = 24ACFE0B19E53DCA0049CF61 /* JSONTests.json */; };
 		9D61169819DC580F0038B66F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D61169719DC580F0038B66F /* AppDelegate.swift */; };
 		9D61169A19DC580F0038B66F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D61169919DC580F0038B66F /* ViewController.swift */; };
 		9D61169D19DC580F0038B66F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D61169B19DC580F0038B66F /* Main.storyboard */; };
@@ -33,6 +36,9 @@
 		1881CDFF19DEA67900934EE6 /* HandyFunctions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HandyFunctions.playground; sourceTree = "<group>"; };
 		1881CE0019DEA67900934EE6 /* SceneKitMac.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SceneKitMac.playground; sourceTree = "<group>"; };
 		24ACFDFD19E51FDE0049CF61 /* Xml.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Xml.playground; sourceTree = "<group>"; };
+		24ACFE0219E52FC70049CF61 /* SwiftJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftJSON.swift; path = ../HelloUI3/SwiftJSON.swift; sourceTree = "<group>"; };
+		24ACFE0A19E53D230049CF61 /* JSONfile.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = JSONfile.geojson; sourceTree = "<group>"; };
+		24ACFE0B19E53DCA0049CF61 /* JSONTests.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JSONTests.json; sourceTree = "<group>"; };
 		9D61169219DC580F0038B66F /* HelloUI3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloUI3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D61169619DC580F0038B66F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D61169719DC580F0038B66F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -112,8 +118,11 @@
 		9D6116AA19DC580F0038B66F /* HelloUI3Tests */ = {
 			isa = PBXGroup;
 			children = (
+				24ACFE0B19E53DCA0049CF61 /* JSONTests.json */,
+				24ACFE0219E52FC70049CF61 /* SwiftJSON.swift */,
 				9D6116AD19DC580F0038B66F /* HelloUI3Tests.swift */,
 				9D6116AB19DC580F0038B66F /* Supporting Files */,
+				24ACFE0A19E53D230049CF61 /* JSONfile.geojson */,
 			);
 			path = HelloUI3Tests;
 			sourceTree = "<group>";
@@ -216,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24ACFE0C19E53DCA0049CF61 /* JSONTests.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D61169A19DC580F0038B66F /* ViewController.swift in Sources */,
+				24ACFE0319E52FC70049CF61 /* SwiftJSON.swift in Sources */,
 				9D61169819DC580F0038B66F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24ACFE0519E534940049CF61 /* SwiftJSON.swift in Sources */,
 				9D6116AE19DC580F0038B66F /* HelloUI3Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
