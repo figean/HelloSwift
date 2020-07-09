@@ -32,6 +32,7 @@
 		1881CDFE19DEA67900934EE6 /* CollectionOperations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CollectionOperations.playground; sourceTree = "<group>"; };
 		1881CDFF19DEA67900934EE6 /* HandyFunctions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HandyFunctions.playground; sourceTree = "<group>"; };
 		1881CE0019DEA67900934EE6 /* SceneKitMac.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SceneKitMac.playground; sourceTree = "<group>"; };
+		24ACFDFD19E51FDE0049CF61 /* Xml.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Xml.playground; sourceTree = "<group>"; };
 		9D61169219DC580F0038B66F /* HelloUI3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloUI3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D61169619DC580F0038B66F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D61169719DC580F0038B66F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				182E63F719E2EE67000DC437 /* Basic.playground */,
+				24ACFDFD19E51FDE0049CF61 /* Xml.playground */,
 				1881CDFD19DEA67900934EE6 /* AccelerateFunctions.playground */,
 				1881CDFE19DEA67900934EE6 /* CollectionOperations.playground */,
 				1881CDFF19DEA67900934EE6 /* HandyFunctions.playground */,
