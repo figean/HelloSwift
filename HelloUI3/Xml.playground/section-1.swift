@@ -269,7 +269,7 @@ let xmlToParse = "<root><header><title>Test Title Header</title></header><catalo
 var xml = XMLIndexer("to be set")
 xml = SWXMLHash.parse(xmlToParse)
 
-xml["root"]["header"]["title"].element?.text
+xml["root"]["header"]["title"].element
 
 // will return "Ralls, Kim"
 xml["root"]["catalog"]["book"][1]["author"].element?.text
@@ -277,5 +277,16 @@ xml["root"]["catalog"]["book"][1]["author"].element?.text
 // will return "bk102"
 xml["root"]["catalog"]["book"][1].element?.attributes["id"]
 
+
+var url = NSURL(string: "http://182.151.214.108:81/v4.0/index.php/?appid=56&appkey=a546171104ddsd54771ds0a950a134a5&fun=userinfo&act=get&mobile=18857115885")
+
+
+var data = NSData.dataWithContentsOfURL(url, options:NSDataReadingOptions.DataReadingUncached, error:nil)
+
+var str = NSString(data:data, encoding: NSUTF8StringEncoding)
+var userdata = XMLIndexer("user info")
+userdata = SWXMLHash.parse(str)
+
+userdata["root"]["head"]["message"].element?.text
 
 
