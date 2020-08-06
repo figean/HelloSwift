@@ -35,6 +35,7 @@
 		1881CDFE19DEA67900934EE6 /* CollectionOperations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CollectionOperations.playground; sourceTree = "<group>"; };
 		1881CDFF19DEA67900934EE6 /* HandyFunctions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HandyFunctions.playground; sourceTree = "<group>"; };
 		1881CE0019DEA67900934EE6 /* SceneKitMac.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SceneKitMac.playground; sourceTree = "<group>"; };
+		2492C1541A09BEF8002ADCFA /* XmlUrl.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = XmlUrl.playground; sourceTree = "<group>"; };
 		24ACFDFD19E51FDE0049CF61 /* Xml.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Xml.playground; sourceTree = "<group>"; };
 		24ACFE0219E52FC70049CF61 /* SwiftJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftJSON.swift; path = ../HelloUI3/SwiftJSON.swift; sourceTree = "<group>"; };
 		24ACFE0A19E53D230049CF61 /* JSONfile.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = JSONfile.geojson; sourceTree = "<group>"; };
@@ -90,6 +91,7 @@
 		9D61169419DC580F0038B66F /* HelloUI3 */ = {
 			isa = PBXGroup;
 			children = (
+				2492C1541A09BEF8002ADCFA /* XmlUrl.playground */,
 				182E63F719E2EE67000DC437 /* Basic.playground */,
 				24ACFDFD19E51FDE0049CF61 /* Xml.playground */,
 				1881CDFD19DEA67900934EE6 /* AccelerateFunctions.playground */,

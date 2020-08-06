@@ -264,18 +264,7 @@ public class XMLElement {
 }
 //////
 
-let xmlToParse = "<root><header><title>Test Title Header</title></header><catalog><book id=\"bk101\"><author>Gambardella, Matthew</author><title>XML Developer's Guide</title><genre>Computer</genre><price>44.95</price><publish_date>2000-10-01</publish_date><description>An in-depth look at creating applications with XML.</description></book><book id=\"bk102\"><author>Ralls, Kim</author><title>Midnight Rain</title><genre>Fantasy</genre><price>5.95</price><publish_date>2000-12-16</publish_date><description>A former architect battles corporate zombies, an evil sorceress, and her own childhood to become queen of the world.</description></book><book id=\"bk103\"><author>Corets, Eva</author><title>Maeve Ascendant</title><genre>Fantasy</genre><price>5.95</price><publish_date>2000-11-17</publish_date><description>After the collapse of a nanotechnology society in England, the young survivors lay the foundation for a new society.</description></book></catalog></root>"
 
-var xml = XMLIndexer("to be set")
-xml = SWXMLHash.parse(xmlToParse)
-
-xml["root"]["header"]["title"].element
-
-// will return "Ralls, Kim"
-xml["root"]["catalog"]["book"][1]["author"].element?.text
-
-// will return "bk102"
-xml["root"]["catalog"]["book"][1].element?.attributes["id"]
 
 
 //var url = NSURL(string: "http://192.168.1.129/car/api.php?appid=1&appkey=0958d204a06d6e9e36c45bb9a88410ea&fun=getpositionuser&uid=219848&lng=103.986542&lat=30.637901")
@@ -287,7 +276,7 @@ var data = NSData(contentsOfURL: url1!, options:NSDataReadingOptions.DataReading
 var str = NSString(data:data!, encoding: NSUTF8StringEncoding)
 var userdata = XMLIndexer("user info")
 userdata = SWXMLHash.parse(str!)
-
-userdata["root"]["body"]["items"]["uinfo"]["userInfo"]["id"].element?.text
+userdata["root"]["body"]["items"][0]["uinfo"]["userInfo"]["head"].element?.text
+userdata["root"]["body"]["items"][0]["uinfo"]["userInfo"]["id"].element?.text
 
 
