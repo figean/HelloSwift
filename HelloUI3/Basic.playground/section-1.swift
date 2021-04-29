@@ -20,6 +20,13 @@ func backsort(a1:NSInteger , a2:NSInteger) ->Bool{
 
 var newsortarr = sorted(numarr,backsort)
 
+println("使用元组")
+let (first,second) = (12,"knight.lu")
+
+println("使用元组打印 第一个数\(first) 第二个数\(second)")
+
+let a = backsort(0, 1)
+println(a)
 
 println("***********")
 
