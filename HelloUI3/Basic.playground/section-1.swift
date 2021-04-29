@@ -4,6 +4,23 @@ import UIKit
 
 var str = "学习swift语言"
 
+
+let names = ["Chris", "Alex", "Ewa", "Barry", "Daniella"]
+func backwards(s1: String, s2: String) -> Bool {
+    return s1 > s2
+}
+var reversed = sorted(names, backwards)
+
+let numarr = [3,4,7,9,10]
+
+func backsort(a1:NSInteger , a2:NSInteger) ->Bool{
+
+    return a1 > a2
+}
+
+var newsortarr = sorted(numarr,backsort)
+
+
 println("***********")
 
 func returnFifteen() -> Int {
